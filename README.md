@@ -1,6 +1,6 @@
 # [Map Print](https://anvaka.github.io/map-print/)
 
-Print a map of roads on a mug.
+Print a map of roads on a <strike>mug</strike> drawstring bag.
 
 ![demo](https://i.imgur.com/lXBMVxV.gif)
 
@@ -13,7 +13,6 @@ Here is how the final product look like:
 I love maps and travels. Every time I grab a Vancouver mug - not only it is filled with hot coffee,
 it is also filled with warm memories. 
 
-![vancouver mug](https://i.imgur.com/XiISjy3.png)
 
 Now you too can [make a mug from the roads network](https://anvaka.github.io/map-print/) of a city that you've visited (or planning to visit).
 Or give it as a gift to those whom you care about. I hope you like what this project does.

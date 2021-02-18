@@ -3,7 +3,7 @@ import request from './request';
 let imageUrl = 'https://edi6jgnosf.execute-api.us-west-2.amazonaws.com/Stage/put_image'
 
 const productKinds = {
-  mug: '168739066664861503'
+  bag: '256735649039136072'
 };
 
 function getZazzleLink(kind, imageUrl) {
@@ -29,7 +29,7 @@ export default function generateZazzleLink(canvas) {
   }, 'POST').then(x => {
     if (!x.success) throw new Error('Failed to upload image');
     let link = x.data.link; 
-    return getZazzleLink('mug', link);
+    return getZazzleLink('bag', link);
   }).catch(e => {
     console.log('error', e);
     throw e;

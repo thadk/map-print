@@ -243,7 +243,7 @@ function px(x) {
 
 function getCanvasDimensions() {
   let {innerWidth: w, innerHeight: h} = window;
-  let desiredRatio = 540/230; // mug ratio on zazzle. TODO: Customize for other products.
+  let desiredRatio = 145/180 //drawstring ratio //540/230; mug ratio on zazzle. TODO: Customize for other products.
   let guidelineHeight = w / desiredRatio;
 
   let guideLineWidth = w;
